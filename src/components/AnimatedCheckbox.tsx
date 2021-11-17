@@ -36,7 +36,7 @@ export default function AnimatedCheckbox({
 
   useEffect(() => {
     progress.value = withTiming(checked ? 1 : 0, {
-      duration: checked ? 300 : 100,
+      duration: checked ? 200 : 100,
       easing: Easing.linear
     })
   }, [checked])
