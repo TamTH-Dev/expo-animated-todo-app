@@ -85,7 +85,7 @@ export default function TaskItem({
           justifyContent="center"
           pr={4}
         >
-          <Icon color="white" as={<Feather name="trash-2" />} />
+          <Icon size="sm" color="white" as={<Feather name="trash-2" />} />
         </Box>
       }
       simultaneousHandlers={simultaneousHandlers}
